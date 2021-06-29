@@ -17,7 +17,7 @@ navbar: {
     height:70,
     alignItems: 'center',
     justifyContent: 'flex-end',
-    backgroundColor: '#3949ab',
+    backgroundColor: 'black',
     paddingBottom: 10
 },
 text: {

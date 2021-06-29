@@ -24,9 +24,10 @@ const [value, setValue] = useState('')
     style = {styles.input}
     onChangeText = {setValue}
     value ={value}
-    placeholder = "Введите название дела..."
+    placeholder = "
+    Enter something"
     />
-    <Button title = 'Добавить!!!' onPress = {pressHandler}/>
+    <Button title = 'Add this!' color = 'black' onPress = {pressHandler}/>
 
    </View>
 
@@ -35,16 +36,17 @@ const [value, setValue] = useState('')
 }
 
 const styles = StyleSheet.create({
- block:{flexDirection:'row',
-justifyContent:'space-between',
-alignItems:'center',
-marginBottom: 15},
+ block:{ 
+  flexDirection:'row',
+  justifyContent:'space-between',
+  alignItems:'center',
+  marginBottom: 15},
 input:{
-    width:'70%',
+      width:'70%',
     padding: 10,
     borderStyle: 'solid',
     borderBottomWidth: 2,
-    borderBottomColor: '#3949ab'
+    borderBottomColor: 'black'
 }
 
 

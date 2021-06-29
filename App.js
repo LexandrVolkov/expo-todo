@@ -43,7 +43,8 @@ const addTodo = title => {
 
 const styles = StyleSheet.create({
   container:{
-    paddingHorizontal:30,
+    
+        paddingHorizontal:30,
     paddingVertical:20
             }
     
